@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/rwoj/go-trade/engine/engine"
+	"github.com/rwoj/go-trade/engine"
 
 	"github.com/Shopify/sarama"
 	cluster "github.com/bsm/sarama-cluster"
