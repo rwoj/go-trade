@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"engine/engine"
+	"github.com/rwoj/go-trade/engine/engine"
 
 	"github.com/Shopify/sarama"
 	cluster "github.com/bsm/sarama-cluster"
@@ -23,7 +23,7 @@ func main() {
 		SellOrders: make([]engine.Order, 0, 100),
 	}
 
-	// create a signal channel to know when we are done
+	// create a signal channel to know when we are
 	done := make(chan bool)
 
 	// start processing orders
